@@ -63,7 +63,7 @@ else:
 print(xthyx)
 
 try:
-   conx = connect(host="127.0.0.1",user="mrblgn",password="Sanane13..",database="mqtt")
+   conx = connect(host="127.0.0.1",user="mrblgn",password="Stron6P@ss",database="mqtt")
    #cony = connect(host="10.10.10.81",user="terminal",password="Sanane13.",database="forx")
    seql = "SELECT idx FROM forecast ORDER BY idx DESC LIMIT 1"
    curs = conx.cursor()
