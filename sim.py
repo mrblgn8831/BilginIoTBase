@@ -7,7 +7,7 @@ from mysql.connector import connect, Error
 from datetime import datetime, timedelta
 
 try:
-    conx = connect(host="127.0.0.1",user="mrblgn",password="Sanane13..",database="mqtt")
+    conx = connect(host="127.0.0.1",user="mrblgn",password="Stron6P@ss",database="mqtt")
 except Error as e:
     print(e)
 # Rotayı Al
@@ -82,7 +82,7 @@ for dk in range(0,topNok):
     timSeri.append(xx.strftime('%Y-%m-%d %H:%M:%S'))
 
 print(timSeri[31])
-cony = connect(host="192.168.1.11",user="python",password="Sanane13..",database="mqtt")
+cony = connect(host="192.168.1.11",user="python",password="Stron6P@ss",database="mqtt")
 for nokt in range(0,len(koordx)):
     # DB Ekleme Kodu
     print("Nokta",nokt,"Lat:",koordx[nokt],"Lon:",koordy[nokt],"T:",timSeri[nokt])
